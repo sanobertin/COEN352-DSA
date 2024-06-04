@@ -8,8 +8,11 @@ public class Tree {
         this.root = root;
         this.node = new ArrayList<>();
     }
-    public Boolean isEmpty(){
-        if(this.node.size() == 0){ return true;} else return false;
+
+    public Boolean isEmpty() {
+        if (this.node.size() == 0) {
+            return true;
+        } else return false;
     }
 
     public void addChild(Tree child) {
@@ -23,10 +26,12 @@ public class Tree {
     public int numChildren() {
         return node.size();
     }
+
     public Tree getChild(int index) {
         return node.get(index);
     }
-    public void printTree(){
+
+    public void printTree() {
 
     }
 

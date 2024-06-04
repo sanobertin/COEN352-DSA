@@ -3,7 +3,11 @@ import java.lang.*;
 
 
 public class Deque {
-    public Deque(){};
+    public Deque() {
+    }
+
+    ;
+
     public static void main(String[] args) {
         ArrayDeque<String> RestoReservation = new ArrayDeque<>();
         RestoReservation.addFirst("me");

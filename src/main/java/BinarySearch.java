@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class BinarySearch {
     public static Boolean BinarySearch(ArrayList<Integer> array, int target) {
-        int low = 0 ;
+        int low = 0;
         int high = array.size() - 1;
         while (low <= high) {
             int mid = (low + high) / 2;
@@ -17,9 +17,10 @@ public class BinarySearch {
         }
         return false;
     }
+
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
-        for(int j = 0 ; j < 10000 ; j++) {
+        for (int j = 0; j < 10000; j++) {
             list.add(new Random().nextInt(100));
         }
         //System.out.println(list);
